@@ -9,12 +9,8 @@ namespace DependencyInjection.Controllers
         //With DI Implementation
         private readonly IBankRepository _bankRepository;
         private readonly ITestBankRepo _testBankRepository;
-
-<<<<<<< HEAD:Controllers/BankController.cs
-        public BankController(IBankRepository bankRepository,ITestBankRepo testBankRepo)
-=======
-        public ConstructorLevelDIBankController(IBankRepository bankRepository)
->>>>>>> fdd5b2830417fce78f01fd98917bf7d4ff1f60da:Controllers/ConstructorLevelDIBankController.cs
+               
+        public ConstructorLevelDIBankController(IBankRepository bankRepository, ITestBankRepo testBankRepo)
         {
             _bankRepository = bankRepository;
             _testBankRepository= testBankRepo;

@@ -8,3 +8,4 @@ namespace DependencyInjection.Repositories
         public Bank GetBankInfoByRegNo(int regNo);
     }
 }
+

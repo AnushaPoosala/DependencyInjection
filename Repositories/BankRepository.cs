@@ -7,7 +7,6 @@ namespace DependencyInjection.Repositories
         public BankRepository()
         {
             //string filePath = @"E:\\ASPNET7\\ASP.NET-Core-7-MVC-Topics\\DependencyInjectionCoreApp\\Logs\\ServiceLifeTimeLog.txt";//
-                                
             string filePath = @"C:\Users\Sures\OneDrive\Desktop\AnushaLearnings\DependencyInjection\Logs\ServiceLifeTimeLog.txt";
             string dataOfMsg = $"Bank repo Object is created :@{DateTime.Now.ToString()}";
 
